@@ -36,20 +36,21 @@ img {
 			<div class="col-lg-12">
 				<div class="h4">
 					<br>
-					
-					<c:if test="${empty LotteryErrorMsg}">
-						<span class="glyphicon  glyphicon-tint text-success"></span>
-						<span class="text-success">本次参与抽奖的同学名单</span>
-					</c:if>
-					<c:if test="${not empty LotteryErrorMsg}">
-						<span class="glyphicon  glyphicon-tint text-danger"></span>
-						<span class="text-danger">${LotteryErrorMsg }</span>
-					</c:if>
-					<br><br>
+					<span class="glyphicon  glyphicon-chevron-right text-success"></span>
+					<span class="text-success">课堂抽奖</span>
+					<hr>
 				</div>
 			</div>
 		</div>
 		<form action="<%=request.getContextPath() %>/lottery" method="post">
+			<div class="row">
+				<div class="col-lg-12">
+					<c:if test="${not empty LotteryErrorMsg}">
+						<p class="text-danger">${LotteryErrorMsg }</p>
+						<hr>
+					</c:if>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="text-warning">
@@ -60,14 +61,13 @@ img {
 					<br><br>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-12">
-						<button type="submit" class="btn btn-success btn-large">点击开始抽奖</button>
+			<c:if test="${empty LotteryErrorMsg}">
+				<div class="row">
+					<div class="col-lg-12">
+							<button type="submit" class="btn btn-success btn-large">点击开始抽奖</button>
+					</div>
 				</div>
-			</div>
-			<script type="text/javascript">
-			
-			</script>
+			</c:if>
 		</form>
 
 		<div class="row">

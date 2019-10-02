@@ -35,15 +35,24 @@ img {
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="h4">
-					<br> <span class="glyphicon  glyphicon-tint text-success"></span>
+					<br> <span class="glyphicon  glyphicon-chevron-right text-success"></span>
 					<span class="text-success">抽奖结果</span>
+					<br><br>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="h4">
-					<span class="text-success">本次中奖的是&nbsp;${luckyStudent.name}&nbsp;同学,恭喜!</span>
+				<div>
+					本次中奖的是&nbsp;<span class="h4 text-success"> ${luckyStudent.name} </span>&nbsp;同学,恭喜!
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div>
+					<br>
+					<a href="<%=request.getContextPath()%>/loadLotteryPage" class="btn btn-success btn-large">继续抽奖</a>
 				</div>
 			</div>
 		</div>

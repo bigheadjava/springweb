@@ -1,8 +1,9 @@
-<%@page language="java" pageEncoding="utf-8" contentType="text/html; charset=utf-8"%>
+<%@page language="java" pageEncoding="utf-8"%>
+<%@page import="java.net.URLEncoder" %>
 <!DOCTYPE html>
 <html>
 <head>
-<title>首页</title>
+<title>Spring Web学习</title>
 
 <!-- 引入Bootstrap必须的css文件 -->
 <link rel="stylesheet" type="text/css"
@@ -14,12 +15,11 @@
 <style>
 img {
 	width: 100%;
-	height: 100%;
+	height: 50%;
 }
 </style>
 
 </head>
-<body>
 
 	<div class="container">
 		<div class="row">
@@ -34,26 +34,16 @@ img {
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="h4">
-					<br> 
-					<span class="glyphicon  glyphicon-chevron-right text-success"></span>
-					<span class="text-success">首页</span>
-					<hr>
-				</div>
+				<c:if test="${empty UnLoginError }">
+					<div class="h2 text-danger text-center">
+						<br>
+						<span class="glyphicon  glyphicon-exclamation-sign"></span>
+							${company }${msg1 }${country }${age }${msg2 }
+					</div>
+				</c:if>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<p>
-					登陆成功! 您好, ${userName} 欢迎来到其然软件培训!
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<%@include file="base/footer.jsp"%>
-			</div>
-		</div>
+		
 	</div>
 
 </body>

@@ -27,7 +27,6 @@ img {
 				<%@include file="base/header.jsp"%>
 			</div>
 		</div>
-		<form action="<%=request.getContextPath() %>/register" method="post">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="h4">
@@ -106,16 +105,15 @@ img {
 				<div class="col-lg-8">
 				</div>
 			</div>
-			<div class="row">
+			<%-- <div class="row">
 				<div class="col-lg-12">
 					<span class="text-success">请点击 <a href="<%=request.getContextPath() %>/loadHomePage" class="btn btn-warning">首页</a> 访问首页，或者等待3秒，系统会自动跳转到首页!</span>
 					<% response.setHeader("refresh","3;URL="+request.getContextPath()+"/loadHomePage");%>
 				</div>
-			</div>
+			</div> --%>
 			<script type="text/javascript">
 			
 			</script>
-		</form>
 
 		<div class="row">
 			<div class="col-lg-12">

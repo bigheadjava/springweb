@@ -10,23 +10,30 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.cheer.bean.UserBean;
 import com.cheer.service.UserService;
 
 @Controller
-public class LoginAndRegisterController {
+public class LoginAndRegisterController{
 	
 	@Autowired
 	private UserService userService;
 	
-	@RequestMapping(value="/loadRegister")
+	@RequestMapping("/index")
+	public String loadIndexPage() {
+		return "index";
+	}
+	
+	@RequestMapping(value="/loadRegister",method= RequestMethod.GET)
 	public String loadRegisterPage() {
 		return "register";
 	}
 	
 	@RequestMapping(value="/register", method= {RequestMethod.POST})
-	public String register(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
+	public String register(HttpServletRequest request, HttpServletResponse response, 
+			RedirectAttributes redirectAttributes) throws UnsupportedEncodingException {
 		response.setContentType("text/html;charset=utf-8"); 
 		request.setCharacterEncoding("UTF-8");
 		String userName = request.getParameter("userName");
@@ -44,7 +51,13 @@ public class LoginAndRegisterController {
 		UserBean userBean = new UserBean(userName, userPassword, name, gender, Integer.valueOf(grade), telNo);
 		userService.userRegister(userBean);
 		userBean.setUserPassword(null);
-		request.setAttribute("user", userBean);
+		//request.setAttribute("user", userBean);
+		redirectAttributes.addFlashAttribute("user", userBean);
+		return "redirect:registerSuccess";
+	}
+	
+	@RequestMapping("/registerSuccess")
+	public String registerSuccess() {
 		return "registerSuccess";
 	}
 	
@@ -76,35 +89,5 @@ public class LoginAndRegisterController {
 		return "index";
 	}
 	
-	@RequestMapping(value="/loadHomePage")
-	public String loadHomePage() {
-		return "homePage";
-	}
 	
-	@RequestMapping(value="/loadLotteryPage")
-	public String loadLotteryPage(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
-		response.setContentType("text/html;charset=utf-8"); 
-		request.setCharacterEncoding("UTF-8");
-		List<UserBean> userList = userService.queryUnluckyUsers();
-		request.setAttribute("studentList", userList);
-		return "lottery";
-	}
-	
-	@RequestMapping(value="/lottery")
-	public String lottery(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
-		response.setContentType("text/html;charset=utf-8"); 
-		request.setCharacterEncoding("UTF-8");
-		List<UserBean> userList = userService.queryUnluckyUsers();
-		if(userList == null || userList.size() == 0) {
-			request.setAttribute("LotteryErrorMsg", "当前没有用户参加抽奖活动!");
-			return "lottery";
-		}
-		int count = userList.size();
-		int lotteryNum = (int)(Math.random()*count);
-		UserBean luckyUser = userList.get(lotteryNum);
-		request.setAttribute("luckyStudent", luckyUser);
-		luckyUser.setLotteryFlag("Y");
-		userService.updateLotteryStatus(luckyUser);
-		return "lotteryResult";
-	}
 }

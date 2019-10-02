@@ -8,3 +8,19 @@ create table i_user(
 	tel_no varchar(20),
 	lottery_flag char(1)
 	);
+	
+	
+create table i_code_type(
+	id int auto_increment primary key,
+	type_name varchar(20),
+	description varchar(100)
+);
+
+create table i_code(
+	id int auto_increment primary key,
+	code_id varchar(20),
+	type_name varchar(20),
+	description varchar(100),
+	status_cd char(1),
+	seq int
+);
