@@ -93,6 +93,7 @@ public class CodeController extends BaseController{
 		
 		ModelAndView mv = new ModelAndView("addCode");
 		mv.addObject("allCodeTypeList", allCodeTypeList);
+		mv.addObject("code", new CodeBean());
 		return mv;
 	}
 	
