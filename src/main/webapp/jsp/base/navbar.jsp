@@ -38,6 +38,19 @@
                     <li><a href="#"><span class="text-danger h5">编辑 Code</span></a></li>
                 </ul>
             </li>
+            <li class="dropdown"> 
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<span class="text-success h4">课程管理</span> 
+					<b class="caret"></b>
+				</a>
+                <ul class="dropdown-menu">
+                    <li><a href="<%=request.getContextPath()%>/course/loadCreateClass"><span class="text-danger h5">创建班级</span></a></li>
+                    <li><a href="<%=request.getContextPath()%>/code/listCodeType"><span class="text-danger h5">编辑班级</span></a></li>
+                    <li class="divider"></li>
+                    <li><a href="<%=request.getContextPath()%>/code/loadAddCodePage"><span class="text-danger h5">创建课程</span></a></li>
+                    <li><a href="#"><span class="text-danger h5">编辑课程</span></a></li>
+                </ul>
+            </li>
 		</ul>
 	</div>
 </nav> 

@@ -24,3 +24,23 @@ create table i_code(
 	status_cd char(1),
 	seq int
 );
+
+
+create table i_class(
+	id int auto_increment primary key,
+	name varchar(50),
+	kind varchar(20),
+	location varchar(20),
+	plan_start_date date,
+	plan_end_date data,
+	description varchar(100)
+);
+
+create table i_course(
+	id int auto_increment primary key,
+	name varchar(50),
+	class_id int,
+	times int,
+	description varchar(100),
+	constraint fk_class_id foreign key(class_id) references i_class(id)
+);

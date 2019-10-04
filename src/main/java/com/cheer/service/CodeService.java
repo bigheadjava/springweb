@@ -52,6 +52,12 @@ public class CodeService {
 		return list.get(0);
 	}
 	
+	public List<CodeBean> getCodeByType(String typeName){
+		CodeBean code = new CodeBean();
+		code.setTypeName(typeName);
+		return codeDAO.getCodeList(code);
+	}
+	
 	public List<CodeTypeBean> getAllCodeType(){
 		return codeTypeDAO.getCodeType(null);
 	}

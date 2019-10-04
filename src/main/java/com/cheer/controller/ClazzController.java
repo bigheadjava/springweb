@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping(value="/course")
-public class CourseController extends BaseController{
+public class ClazzController extends BaseController{
 	
 	@RequestMapping(value="/loadAddPage")
 	public String loadScorePage(HttpServletRequest request, HttpServletResponse response) {
