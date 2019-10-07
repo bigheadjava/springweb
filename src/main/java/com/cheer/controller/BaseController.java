@@ -23,4 +23,5 @@ public class BaseController {
 			request.getRequestDispatcher("/logout").forward(request, response);
 		}
 	}
+	
 }

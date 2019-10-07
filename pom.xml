@@ -26,6 +26,8 @@
 		<mysql.driver.version>8.0.17</mysql.driver.version>
 		<commons-dbcp.version>1.4</commons-dbcp.version>
 		<commons-pool.version>1.6</commons-pool.version>
+		<hibernate-validator.version>5.4.1.Final</hibernate-validator.version>
+		<commons-beanutils.version>1.9.4</commons-beanutils.version>
 	</properties>
 
 	<dependencies>
@@ -34,19 +36,19 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.driver.version}</version>
 		</dependency>
-		
+
 		<dependency>
-            <groupId>commons-dbcp</groupId>
-            <artifactId>commons-dbcp</artifactId>
-            <version>${commons-dbcp.version}</version>
-        </dependency>
-        
-         <dependency>
-            <groupId>commons-pool</groupId>
-            <artifactId>commons-pool</artifactId>
-            <version>${commons-pool.version}</version>
-        </dependency>
-	
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>${commons-dbcp.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-pool</groupId>
+			<artifactId>commons-pool</artifactId>
+			<version>${commons-pool.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -149,6 +151,18 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator.version}</version>
+		</dependency>
+
+		<!-- <dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>${commons-beanutils.version}</version>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<finalName>SpringWeb</finalName>

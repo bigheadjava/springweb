@@ -10,6 +10,9 @@
 <!-- 引入Bootstrap的主题样式 -->
 <link rel="stylesheet" type="text/css"
 	href="<%=request.getContextPath()%>/css/bootstrap-theme.css">
+	
+<link rel="stylesheet" type="text/css"
+	href="<%=request.getContextPath()%>/css/main.css">
 
 <style>
 img {
@@ -19,6 +22,10 @@ img {
 </style>
 
 </head>
+
+<script type="text/javascript">
+</script>
+
 <body>
 	<div class="container">
 		<div class="row">
@@ -40,11 +47,11 @@ img {
 				</div>
 			</div>
 		</div>
-		<form:form action="createClass" method="post" modelAttribute="clazz">
+		<form:form action="createClass" method="post" modelAttribute="clazzBean">
 			<div class="row">
 				<div class="col-lg-12">
 					<c:if test="${not empty succMsg}">
-						<p class="text-danger">${succMsg }</p>
+						<p class="error-field">${succMsg }</p>
 						<hr>
 					</c:if>
 				</div>
@@ -62,6 +69,7 @@ img {
 					</div>
 				</div>
 				<div class="col-lg-6">
+					<form:errors path="kind" cssClass="error-field"></form:errors>
 				</div>
 			</div>
 			<div class="row">
@@ -76,6 +84,7 @@ img {
 					</div>
 				</div>
 				<div class="col-lg-6">
+					<form:errors path="location" cssClass="error-field"></form:errors>
 				</div>
 			</div>
 			<div class="row">
@@ -90,6 +99,7 @@ img {
 					</div>
 				</div>
 				<div class="col-lg-6">
+					<form:errors path="name" cssClass="error-field"></form:errors>
 				</div>
 			</div>
 			<div class="row">
@@ -100,10 +110,11 @@ img {
 				</div>
 				<div class="col-lg-4">
 					<div class="form-group">
-						<input type="date" name="planStartDate" id="planStartDate">
+						<input type="date" name="planStartDate" id="planStartDate" pattern="yyyy-MM-dd" value="${clazzBean.planStartDateAsStr }">
 					</div>
 				</div>
 				<div class="col-lg-6">
+					<form:errors path="planStartDate" cssClass="error-field"></form:errors>
 				</div>
 			</div>
 			<div class="row">
@@ -114,10 +125,11 @@ img {
 				</div>
 				<div class="col-lg-4">
 					<div class="form-group">
-						<input type="date" name="planEndDate" id="planEndDate" >
+						<input type="date" name="planEndDate" id="planEndDate" value="${clazzBean.planEndDateAsStr }">
 					</div>
 				</div>
 				<div class="col-lg-6">
+					<form:errors path="planEndDate" cssClass="error-field"></form:errors>
 				</div>
 			</div>
 			<div class="row">

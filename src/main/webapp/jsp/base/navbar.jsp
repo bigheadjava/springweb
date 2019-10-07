@@ -22,9 +22,6 @@
 			<li>
 				<a href="<%=request.getContextPath()%>/loadLotteryPage"><span class="text-success h4">课堂抽奖</span></a>
 			</li>
-			<li>
-				<a href="<%=request.getContextPath()%>/loadAddCourse"><span class="text-success h4">添加课程</span></a>
-			</li>
 			<li class="dropdown"> 
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 					<span class="text-success h4">Code Admin</span> 
