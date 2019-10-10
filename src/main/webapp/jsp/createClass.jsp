@@ -1,4 +1,5 @@
 <%@page language="java" pageEncoding="utf-8"%>
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,7 +43,9 @@ img {
 			<div class="col-lg-12">
 				<div class="h4">
 					<span class="glyphicon  glyphicon-chevron-right text-success"></span>
-					<span class="text-success">创建班级</span>
+					<span class="text-success">
+						<spring:message code="title.create.class" />
+					</span>
 					<hr>
 				</div>
 			</div>
@@ -59,7 +62,9 @@ img {
 			<div class="row">
 				<div class="col-lg-2">
 					<div class="form-group">
-						<label for="classKind">班级类型</label> 
+						<label for="classKind">
+							<spring:message code="label.class.kind" />
+						</label> 
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -75,7 +80,9 @@ img {
 			<div class="row">
 				<div class="col-lg-2">
 					<div class="form-group">
-						<label for="classLocation">班级地点</label> 
+						<label for="classLocation">
+							<spring:message code="label.class.location" />
+						</label> 
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -90,7 +97,9 @@ img {
 			<div class="row">
 				<div class="col-lg-2">
 					<div class="form-group">
-						<label for="className">班级名称</label> 
+						<label for="className">
+							<spring:message code="label.class.name" />
+						</label> 
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -105,7 +114,9 @@ img {
 			<div class="row">
 				<div class="col-lg-2">
 					<div class="form-group">
-						<label for="planStartDate">计划开班时间</label> 
+						<label for="planStartDate">
+							<spring:message code="label.class.plan.start.date" />
+						</label> 
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -120,7 +131,9 @@ img {
 			<div class="row">
 				<div class="col-lg-2">
 					<div class="form-group">
-						<label for="planEndDate">计划毕业时间</label> 
+						<label for="planEndDate">
+							<spring:message code="label.class.plan.end.date" />
+						</label> 
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -135,7 +148,9 @@ img {
 			<div class="row">
 				<div class="col-lg-2">
 					<div class="form-group">
-						<label for="classDesc">班级简介</label> 
+						<label for="classDesc">
+							<spring:message code="label.class.desc" />
+						</label> 
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -152,8 +167,12 @@ img {
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<button type="submit" class="btn btn-success">添 加</button>
-					<button type="reset" class="btn btn-success">重 置</button>
+					<button type="submit" class="btn btn-success">
+						<spring:message code="button.create"></spring:message>
+					</button>
+					<button type="reset" class="btn btn-success">
+						<spring:message code="button.reset"></spring:message>
+					</button>
 				</div>
 				<div class="col-lg-6">
 				</div>

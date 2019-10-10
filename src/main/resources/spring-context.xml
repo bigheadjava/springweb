@@ -78,5 +78,8 @@
 		<property name="providerClass" value="org.hibernate.validator.HibernateValidator"/> 
 	    <property name="validationMessageSource" ref="messageSource" />  
 	</bean>  
+	
+	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver">
+	</bean>
 
 </beans>                                                                                                                                                                                         
