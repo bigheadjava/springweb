@@ -1,0 +1,34 @@
+2019-10-15 09:58:22  [ http-nio-8080-exec-3:1 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:24 ] - [ INFO ]  HV000001: Hibernate Validator 5.4.1.Final
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:56 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:64 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:65 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:66 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:69 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:70 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:71 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:71 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ 2019-10-15 09:58:23  [ http-nio-8080-exec-3:71 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:19 ] - [ INFO ]  HV000001: Hibernate Validator 5.4.1.Final
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:40 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:48 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:48 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:49 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:52 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:53 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:54 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:54 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ 2019-10-15 10:03:39  [ http-nio-8080-exec-3:54 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:15 ] - [ INFO ]  HV000001: Hibernate Validator 5.4.1.Final
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:33 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:39 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:39 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:40 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:42 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:43 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:44 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:44 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ 2019-10-15 10:05:17  [ http-nio-8080-exec-2:44 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+ 

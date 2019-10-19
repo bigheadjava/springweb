@@ -1,0 +1,136 @@
+2019-10-19 09:16:44  [ http-nio-8080-exec-3:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:21 ] - [ INFO ]  HV000001: Hibernate Validator 5.4.1.Final
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:45 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:54 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:54 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:55 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:58 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:59 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:60 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:60 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ 2019-10-19 09:16:44  [ http-nio-8080-exec-3:61 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+ 2019-10-19 10:14:26  [ http-nio-8080-exec-2:3461830 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 10:25:00  [ http-nio-8080-exec-9:4096297 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 13:08:31  [ http-nio-8080-exec-4:13907090 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915171 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@1abbb6f2, payload=[Ljava.lang.Class;@1f1a29d6}, constraintType=GENERIC}.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915176 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@26e1422c, payload=[Ljava.lang.Class;@257f3868}, constraintType=GENERIC}.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915177 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@1c670f16, payload=[Ljava.lang.Class;@46c8b8f9}, constraintType=GENERIC}.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915177 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@6a14722e, payload=[Ljava.lang.Class;@3674ab7c}, constraintType=GENERIC}.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915245 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915247 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915259 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915259 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915260 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915260 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915263 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915263 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915264 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915264 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915265 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915265 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915267 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915267 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915268 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 13:08:39  [ http-nio-8080-exec-7:13915268 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:08:11  [ http-nio-8080-exec-2:17487296 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:16 ] - [ INFO ]  HV000001: Hibernate Validator 5.4.1.Final
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:37 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:44 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:45 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:45 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:48 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:49 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:49 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:49 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ 2019-10-19 14:09:15  [ http-nio-8080-exec-2:50 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+ 2019-10-19 14:09:21  [ http-nio-8080-exec-5:5994 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7831 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@60e127d7, payload=[Ljava.lang.Class;@27a7942d}, constraintType=GENERIC}.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7835 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@579e49cf, payload=[Ljava.lang.Class;@529d4204}, constraintType=GENERIC}.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7836 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@22c2cbb5, payload=[Ljava.lang.Class;@24f28499}, constraintType=GENERIC}.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7837 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@10761f9, payload=[Ljava.lang.Class;@39328ebf}, constraintType=GENERIC}.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7894 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7896 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7907 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7907 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7911 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:09:22  [ http-nio-8080-exec-7:7911 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:14 ] - [ INFO ]  HV000001: Hibernate Validator 5.4.1.Final
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:33 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:39 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:39 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:40 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:42 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:43 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:43 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:43 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ 2019-10-19 14:11:30  [ http-nio-8080-exec-2:43 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+ 2019-10-19 14:11:35  [ http-nio-8080-exec-5:5636 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7184 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@1afc2706, payload=[Ljava.lang.Class;@4f6bac95}, constraintType=GENERIC}.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7188 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@1b3d60a2, payload=[Ljava.lang.Class;@65efa525}, constraintType=GENERIC}.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7189 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@5f9175fd, payload=[Ljava.lang.Class;@2dfe9c76}, constraintType=GENERIC}.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7189 ] - [ DEBUG ]  Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@5d36d11b, payload=[Ljava.lang.Class;@45e88115}, constraintType=GENERIC}.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7251 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7253 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7269 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7269 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7270 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7270 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7271 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7271 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7271 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7271 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7272 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7272 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7273 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7273 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7273 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7273 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7274 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:11:37  [ http-nio-8080-exec-7:7274 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 14:28:04  [ http-nio-8080-exec-9:994191 ] - [ DEBUG ]  ContributorValidationMessages not found.
+ 2019-10-19 14:28:04  [ http-nio-8080-exec-9:994193 ] - [ DEBUG ]  org.hibernate.validator.ValidationMessages found.
+ 2019-10-19 15:09:29  [ http-nio-8080-exec-5:3479595 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 15:40:33  [ http-nio-8080-exec-1:5343460 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 15:53:03  [ http-nio-8080-exec-9:6093699 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 15:53:52  [ http-nio-8080-exec-10:6142719 ] - [ INFO ]  ....加载创建班级页面......
+ 2019-10-19 21:45:37  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 2019-10-19 21:45:37  [ main:41 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+ 2019-10-19 21:45:37  [ main:42 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+ 2019-10-19 21:45:37  [ main:42 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+ 2019-10-19 21:45:37  [ main:42 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ 2019-10-19 21:45:37  [ main:43 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ 2019-10-19 21:45:37  [ main:43 ] - [ DEBUG ]  Find JAR URL: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model
+ 2019-10-19 21:45:37  [ main:43 ] - [ DEBUG ]  Not a JAR: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model
+ 2019-10-19 21:45:37  [ main:69 ] - [ DEBUG ]  Reader entry: User.class
+ 2019-10-19 21:45:37  [ main:70 ] - [ DEBUG ]  Listing file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model
+ 2019-10-19 21:45:37  [ main:70 ] - [ DEBUG ]  Find JAR URL: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model/User.class
+ 2019-10-19 21:45:37  [ main:70 ] - [ DEBUG ]  Not a JAR: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model/User.class
+ 2019-10-19 21:45:37  [ main:70 ] - [ DEBUG ]  Reader entry: ����   4 >  com/cheer/model/User  java/lang/Object id Ljava/lang/Integer; userName Ljava/lang/String; userPassword name gender grade telNo lotteryFlag <init> ()V Code
+ 2019-10-19 21:45:37  [ main:71 ] - [ DEBUG ]  Checking to see if class com.cheer.model.User matches criteria [is assignable to Object]
+ 2019-10-19 21:45:37  [ main:83 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 2019-10-19 21:45:37  [ main:135 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:45:37  [ main:135 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:45:37  [ main:135 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:45:37  [ main:135 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:51:18  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 2019-10-19 21:51:18  [ main:47 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+ 2019-10-19 21:51:18  [ main:47 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+ 2019-10-19 21:51:18  [ main:47 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+ 2019-10-19 21:51:18  [ main:48 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+ 2019-10-19 21:51:18  [ main:48 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+ 2019-10-19 21:51:18  [ main:48 ] - [ DEBUG ]  Find JAR URL: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model
+ 2019-10-19 21:51:18  [ main:48 ] - [ DEBUG ]  Not a JAR: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model
+ 2019-10-19 21:51:18  [ main:75 ] - [ DEBUG ]  Reader entry: User.class
+ 2019-10-19 21:51:18  [ main:75 ] - [ DEBUG ]  Listing file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model
+ 2019-10-19 21:51:18  [ main:75 ] - [ DEBUG ]  Find JAR URL: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model/User.class
+ 2019-10-19 21:51:18  [ main:75 ] - [ DEBUG ]  Not a JAR: file:/Users/yinchu/training/mybatis/target/classes/com/cheer/model/User.class
+ 2019-10-19 21:51:18  [ main:76 ] - [ DEBUG ]  Reader entry: ����   4 _  com/cheer/model/User  java/lang/Object id Ljava/lang/Integer; userName Ljava/lang/String; userPassword name gender grade telNo lotteryFlag <init> ()V Code
+ 2019-10-19 21:51:18  [ main:77 ] - [ DEBUG ]  Checking to see if class com.cheer.model.User matches criteria [is assignable to Object]
+ 2019-10-19 21:51:18  [ main:90 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ 2019-10-19 21:51:18  [ main:137 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:51:18  [ main:138 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:51:18  [ main:138 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 2019-10-19 21:51:18  [ main:138 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+ 

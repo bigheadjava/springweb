@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -27,6 +28,8 @@ import com.cheer.validator.ClazzValidator;
 @RequestMapping("course")
 public class ManageCourseController extends BaseController {
 	
+	private static Logger logger = Logger.getLogger(ManageCourseController.class);
+	
 	@Autowired
 	CodeService codeService;
 	@Autowired
@@ -34,6 +37,7 @@ public class ManageCourseController extends BaseController {
 
 	@RequestMapping("loadCreateClass")
 	public ModelAndView loadCreateClass() {
+		logger.info("....加载创建班级页面......");
 		ModelAndView  mv = new ModelAndView("createClass");
 		List<CodeBean> classKindList = codeService.getCodeByType("class_kind");
 		List<CodeBean> classLocationList = codeService.getCodeByType("class_loc");

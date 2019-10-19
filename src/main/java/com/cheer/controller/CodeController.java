@@ -1,5 +1,7 @@
 package com.cheer.controller;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
@@ -30,6 +32,21 @@ public class CodeController extends BaseController{
 	@RequestMapping("/loadAddCodeType")
 	public String loadAddCodeTypePage() {
 		return "addCodeType";
+	}
+	
+	@RequestMapping("/getCodeTypeIntroduction")
+	public void getCodeTypeIntroduction(HttpServletRequest request, HttpServletResponse response, @RequestParam String cityNo) throws IOException {
+		PrintWriter writer = response.getWriter();
+		//writer.write("这是一个Ajax的GET请求...");
+		if("0512".equals(cityNo)) {
+			writer.write("这是苏州");
+		}else if("010".equals(cityNo)) {
+			writer.write("这是北京");
+		}else if("000".equals(cityNo)) {
+			String s = "{\"name\": \"Tom\",\"age\": 18,\"gender\":\"Man\"}";
+			writer.write(s);
+		}
+		writer.close();
 	}
 	
 	@RequestMapping("/addCodeType")

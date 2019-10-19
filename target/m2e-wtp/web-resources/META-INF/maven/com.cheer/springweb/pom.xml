@@ -11,6 +11,7 @@
 
 	<!-- 定义Maven变量 -->
 	<properties>
+		<!-- 设置源代码编码方式 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<spring.version>5.0.0.RELEASE</spring.version>
@@ -28,6 +29,7 @@
 		<commons-pool.version>1.6</commons-pool.version>
 		<hibernate-validator.version>5.4.1.Final</hibernate-validator.version>
 		<commons-beanutils.version>1.9.4</commons-beanutils.version>
+		<log4j.version>1.2.17</log4j.version>
 	</properties>
 
 	<dependencies>
@@ -158,15 +160,19 @@
 			<version>${hibernate-validator.version}</version>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>commons-beanutils</groupId>
-			<artifactId>commons-beanutils</artifactId>
-			<version>${commons-beanutils.version}</version>
-		</dependency> -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>commons-beanutils</groupId> <artifactId>commons-beanutils</artifactId> 
+			<version>${commons-beanutils.version}</version> </dependency> -->
 	</dependencies>
 	<build>
 		<finalName>SpringWeb</finalName>
 		<plugins>
+			<!-- 设置JDK编译版本 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>

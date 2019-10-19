@@ -50,6 +50,9 @@ public class CompareDateValidator implements ConstraintValidator<CompareDate, Ob
 			Method m2 = obj.getClass().getMethod("get" + getMethodName(field2));
 			Date d1 = (Date) m1.invoke(obj);
 			Date d2 = (Date) m2.invoke(obj);
+			if(d1 == null || d2 == null) {
+				return true;
+			}
 			return d1.getTime() <= d2.getTime();
 			
 		} catch (NoSuchFieldException | SecurityException | AnnotationConfigurationException 
